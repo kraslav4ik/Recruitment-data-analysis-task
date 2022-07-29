@@ -1,6 +1,6 @@
 # Recruitment-data-analysis-task
 
-#Task 1
+## Task 1
 
 Based on the pandas and faker libraries implement a function named generate_ssns , which returns an object of the Series type with the number of records specified by the function input parameter and values representing the random numbers generated PESEL.
 
@@ -10,7 +10,7 @@ Then implement the calls to the generate_ssns and generate_unique_ssns functions
 
 Implement a function called validate_ssn , which takes the PESEL number as input along with the expected gender (female / male / any) and date of birth (specific / specific or any), and returns information on the correctness of the PESEL number on the output. Inside the function, include the logic verifying the syntactic correctness of the PESEL number, taking into account the information about the expected gender and date of birth. Then test the validate_ssn function with sample data.
 
-#Task 2
+## Task 2
 
 1. Using sqlite3 , create a new database with the FlightLeg table , which will contain information about the flights of the planes, with the following columns:  
   * id - numeric identifier assigned from the sequence  
